@@ -1,0 +1,54 @@
+[2023-08-15 19:26:35,616] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: first_dag.cria_pasta scheduled__2023-08-14T00:00:00+00:00 [queued]>
+[2023-08-15 19:26:35,622] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: first_dag.cria_pasta scheduled__2023-08-14T00:00:00+00:00 [queued]>
+[2023-08-15 19:26:35,622] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-08-15 19:26:35,622] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-08-15 19:26:35,622] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-08-15 19:26:35,651] {taskinstance.py:1377} INFO - Executing <Task(BashOperator): cria_pasta> on 2023-08-14 00:00:00+00:00
+[2023-08-15 19:26:35,653] {standard_task_runner.py:52} INFO - Started process 38245 to run task
+[2023-08-15 19:26:35,659] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'first_dag', 'cria_pasta', 'scheduled__2023-08-14T00:00:00+00:00', '--job-id', '7', '--raw', '--subdir', 'DAGS_FOLDER/first_dag.py', '--cfg-path', '/tmp/tmpslb0u7pm', '--error-file', '/tmp/tmpthq97crr']
+[2023-08-15 19:26:35,660] {standard_task_runner.py:80} INFO - Job 7: Subtask cria_pasta
+[2023-08-15 19:26:35,707] {task_command.py:370} INFO - Running <TaskInstance: first_dag.cria_pasta scheduled__2023-08-14T00:00:00+00:00 [running]> on host ubuntu.internal.cloudapp.net
+[2023-08-15 19:26:35,776] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=first_dag
+AIRFLOW_CTX_TASK_ID=cria_pasta
+AIRFLOW_CTX_EXECUTION_DATE=2023-08-14T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-08-14T00:00:00+00:00
+[2023-08-15 19:26:35,777] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2023-08-15 19:26:35,778] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'mkdir -p "/home/guilherme/airflow/pasta"']
+[2023-08-15 19:26:35,783] {subprocess.py:85} INFO - Output:
+[2023-08-15 19:26:35,786] {subprocess.py:96} INFO - Command exited with return code 0
+[2023-08-15 19:26:35,819] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=first_dag, task_id=cria_pasta, execution_date=20230814T000000, start_date=20230815T192635, end_date=20230815T192635
+[2023-08-15 19:26:35,872] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-08-15 19:26:35,889] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2023-08-15 19:37:13,357] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: first_dag.cria_pasta scheduled__2023-08-14T00:00:00+00:00 [queued]>
+[2023-08-15 19:37:13,364] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: first_dag.cria_pasta scheduled__2023-08-14T00:00:00+00:00 [queued]>
+[2023-08-15 19:37:13,364] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-08-15 19:37:13,364] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-08-15 19:37:13,364] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-08-15 19:37:13,387] {taskinstance.py:1377} INFO - Executing <Task(BashOperator): cria_pasta> on 2023-08-14 00:00:00+00:00
+[2023-08-15 19:37:13,390] {standard_task_runner.py:52} INFO - Started process 40171 to run task
+[2023-08-15 19:37:13,398] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'first_dag', 'cria_pasta', 'scheduled__2023-08-14T00:00:00+00:00', '--job-id', '13', '--raw', '--subdir', 'DAGS_FOLDER/first_dag.py', '--cfg-path', '/tmp/tmphhffv9ui', '--error-file', '/tmp/tmpwat_ifza']
+[2023-08-15 19:37:13,399] {standard_task_runner.py:80} INFO - Job 13: Subtask cria_pasta
+[2023-08-15 19:37:13,475] {task_command.py:370} INFO - Running <TaskInstance: first_dag.cria_pasta scheduled__2023-08-14T00:00:00+00:00 [running]> on host ubuntu.internal.cloudapp.net
+[2023-08-15 19:37:13,563] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=first_dag
+AIRFLOW_CTX_TASK_ID=cria_pasta
+AIRFLOW_CTX_EXECUTION_DATE=2023-08-14T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-08-14T00:00:00+00:00
+[2023-08-15 19:37:13,564] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2023-08-15 19:37:13,565] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'mkdir -p "/home/guilherme/airflow/pasta=2023-08-15T00:00:00+00:00"']
+[2023-08-15 19:37:13,570] {subprocess.py:85} INFO - Output:
+[2023-08-15 19:37:13,573] {subprocess.py:96} INFO - Command exited with return code 0
+[2023-08-15 19:37:13,612] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=first_dag, task_id=cria_pasta, execution_date=20230814T000000, start_date=20230815T193713, end_date=20230815T193713
+[2023-08-15 19:37:13,652] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-08-15 19:37:13,667] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

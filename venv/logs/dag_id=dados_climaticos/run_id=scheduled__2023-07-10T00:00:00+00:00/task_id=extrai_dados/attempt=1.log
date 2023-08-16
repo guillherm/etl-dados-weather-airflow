@@ -1,0 +1,69 @@
+[2023-08-15 20:15:49,502] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: dados_climaticos.extrai_dados scheduled__2023-07-10T00:00:00+00:00 [queued]>
+[2023-08-15 20:15:49,508] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: dados_climaticos.extrai_dados scheduled__2023-07-10T00:00:00+00:00 [queued]>
+[2023-08-15 20:15:49,508] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-08-15 20:15:49,508] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-08-15 20:15:49,508] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-08-15 20:15:49,530] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): extrai_dados> on 2023-07-10 00:00:00+00:00
+[2023-08-15 20:15:49,534] {standard_task_runner.py:52} INFO - Started process 48855 to run task
+[2023-08-15 20:15:49,542] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'dados_climaticos', 'extrai_dados', 'scheduled__2023-07-10T00:00:00+00:00', '--job-id', '150', '--raw', '--subdir', 'DAGS_FOLDER/dados_climatics.py', '--cfg-path', '/tmp/tmpwtd5s56q', '--error-file', '/tmp/tmpvdx9_rxd']
+[2023-08-15 20:15:49,543] {standard_task_runner.py:80} INFO - Job 150: Subtask extrai_dados
+[2023-08-15 20:15:49,601] {task_command.py:370} INFO - Running <TaskInstance: dados_climaticos.extrai_dados scheduled__2023-07-10T00:00:00+00:00 [running]> on host ubuntu.internal.cloudapp.net
+[2023-08-15 20:15:49,675] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=dados_climaticos
+AIRFLOW_CTX_TASK_ID=extrai_dados
+AIRFLOW_CTX_EXECUTION_DATE=2023-07-10T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-07-10T00:00:00+00:00
+[2023-08-15 20:15:49,775] {python.py:173} INFO - Done. Returned value was: None
+[2023-08-15 20:15:49,781] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=dados_climaticos, task_id=extrai_dados, execution_date=20230710T000000, start_date=20230815T201549, end_date=20230815T201549
+[2023-08-15 20:15:49,836] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-08-15 20:15:49,854] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2023-08-15 20:31:53,040] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: dados_climaticos.extrai_dados scheduled__2023-07-10T00:00:00+00:00 [queued]>
+[2023-08-15 20:31:53,046] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: dados_climaticos.extrai_dados scheduled__2023-07-10T00:00:00+00:00 [queued]>
+[2023-08-15 20:31:53,046] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-08-15 20:31:53,046] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-08-15 20:31:53,046] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-08-15 20:31:53,079] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): extrai_dados> on 2023-07-10 00:00:00+00:00
+[2023-08-15 20:31:53,083] {standard_task_runner.py:52} INFO - Started process 53653 to run task
+[2023-08-15 20:31:53,089] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'dados_climaticos', 'extrai_dados', 'scheduled__2023-07-10T00:00:00+00:00', '--job-id', '219', '--raw', '--subdir', 'DAGS_FOLDER/dados_climatics.py', '--cfg-path', '/tmp/tmp0rgnnxbi', '--error-file', '/tmp/tmptrp04nab']
+[2023-08-15 20:31:53,089] {standard_task_runner.py:80} INFO - Job 219: Subtask extrai_dados
+[2023-08-15 20:31:53,156] {task_command.py:370} INFO - Running <TaskInstance: dados_climaticos.extrai_dados scheduled__2023-07-10T00:00:00+00:00 [running]> on host ubuntu.internal.cloudapp.net
+[2023-08-15 20:31:53,234] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=dados_climaticos
+AIRFLOW_CTX_TASK_ID=extrai_dados
+AIRFLOW_CTX_EXECUTION_DATE=2023-07-10T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-07-10T00:00:00+00:00
+[2023-08-15 20:31:53,332] {python.py:173} INFO - Done. Returned value was: None
+[2023-08-15 20:31:53,340] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=dados_climaticos, task_id=extrai_dados, execution_date=20230710T000000, start_date=20230815T203153, end_date=20230815T203153
+[2023-08-15 20:31:53,380] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-08-15 20:31:53,400] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2023-08-15 20:45:34,898] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: dados_climaticos.extrai_dados scheduled__2023-07-10T00:00:00+00:00 [queued]>
+[2023-08-15 20:45:34,904] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: dados_climaticos.extrai_dados scheduled__2023-07-10T00:00:00+00:00 [queued]>
+[2023-08-15 20:45:34,904] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-08-15 20:45:34,904] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-08-15 20:45:34,904] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-08-15 20:45:34,930] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): extrai_dados> on 2023-07-10 00:00:00+00:00
+[2023-08-15 20:45:34,934] {standard_task_runner.py:52} INFO - Started process 58215 to run task
+[2023-08-15 20:45:34,939] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'dados_climaticos', 'extrai_dados', 'scheduled__2023-07-10T00:00:00+00:00', '--job-id', '319', '--raw', '--subdir', 'DAGS_FOLDER/dados_climatics.py', '--cfg-path', '/tmp/tmpx0195oyz', '--error-file', '/tmp/tmp8javo5m9']
+[2023-08-15 20:45:34,940] {standard_task_runner.py:80} INFO - Job 319: Subtask extrai_dados
+[2023-08-15 20:45:35,000] {task_command.py:370} INFO - Running <TaskInstance: dados_climaticos.extrai_dados scheduled__2023-07-10T00:00:00+00:00 [running]> on host ubuntu.internal.cloudapp.net
+[2023-08-15 20:45:35,078] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=dados_climaticos
+AIRFLOW_CTX_TASK_ID=extrai_dados
+AIRFLOW_CTX_EXECUTION_DATE=2023-07-10T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-07-10T00:00:00+00:00
+[2023-08-15 20:45:35,147] {python.py:173} INFO - Done. Returned value was: None
+[2023-08-15 20:45:35,154] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=dados_climaticos, task_id=extrai_dados, execution_date=20230710T000000, start_date=20230815T204534, end_date=20230815T204535
+[2023-08-15 20:45:35,191] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-08-15 20:45:35,209] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,54 @@
+[2023-08-15 20:29:36,233] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: dados_climaticos.cria_pasta_semana scheduled__2023-04-10T00:00:00+00:00 [queued]>
+[2023-08-15 20:29:36,238] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: dados_climaticos.cria_pasta_semana scheduled__2023-04-10T00:00:00+00:00 [queued]>
+[2023-08-15 20:29:36,238] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-08-15 20:29:36,238] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-08-15 20:29:36,238] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-08-15 20:29:36,260] {taskinstance.py:1377} INFO - Executing <Task(BashOperator): cria_pasta_semana> on 2023-04-10 00:00:00+00:00
+[2023-08-15 20:29:36,264] {standard_task_runner.py:52} INFO - Started process 51991 to run task
+[2023-08-15 20:29:36,269] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'dados_climaticos', 'cria_pasta_semana', 'scheduled__2023-04-10T00:00:00+00:00', '--job-id', '178', '--raw', '--subdir', 'DAGS_FOLDER/dados_climatics.py', '--cfg-path', '/tmp/tmprdnppocv', '--error-file', '/tmp/tmpxq8gl92r']
+[2023-08-15 20:29:36,269] {standard_task_runner.py:80} INFO - Job 178: Subtask cria_pasta_semana
+[2023-08-15 20:29:36,335] {task_command.py:370} INFO - Running <TaskInstance: dados_climaticos.cria_pasta_semana scheduled__2023-04-10T00:00:00+00:00 [running]> on host ubuntu.internal.cloudapp.net
+[2023-08-15 20:29:36,404] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=dados_climaticos
+AIRFLOW_CTX_TASK_ID=cria_pasta_semana
+AIRFLOW_CTX_EXECUTION_DATE=2023-04-10T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-04-10T00:00:00+00:00
+[2023-08-15 20:29:36,405] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2023-08-15 20:29:36,405] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'mkdir -p "/home/guilherme/airflow/semana=2023-04/2023-04-17"']
+[2023-08-15 20:29:36,413] {subprocess.py:85} INFO - Output:
+[2023-08-15 20:29:36,415] {subprocess.py:96} INFO - Command exited with return code 0
+[2023-08-15 20:29:36,454] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=dados_climaticos, task_id=cria_pasta_semana, execution_date=20230410T000000, start_date=20230815T202936, end_date=20230815T202936
+[2023-08-15 20:29:36,480] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-08-15 20:29:36,495] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2023-08-15 20:44:03,922] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: dados_climaticos.cria_pasta_semana scheduled__2023-04-10T00:00:00+00:00 [queued]>
+[2023-08-15 20:44:03,928] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: dados_climaticos.cria_pasta_semana scheduled__2023-04-10T00:00:00+00:00 [queued]>
+[2023-08-15 20:44:03,928] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-08-15 20:44:03,929] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-08-15 20:44:03,929] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-08-15 20:44:03,951] {taskinstance.py:1377} INFO - Executing <Task(BashOperator): cria_pasta_semana> on 2023-04-10 00:00:00+00:00
+[2023-08-15 20:44:03,955] {standard_task_runner.py:52} INFO - Started process 57091 to run task
+[2023-08-15 20:44:03,960] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'dados_climaticos', 'cria_pasta_semana', 'scheduled__2023-04-10T00:00:00+00:00', '--job-id', '278', '--raw', '--subdir', 'DAGS_FOLDER/dados_climatics.py', '--cfg-path', '/tmp/tmppzn7gxld', '--error-file', '/tmp/tmpa5ly933e']
+[2023-08-15 20:44:03,961] {standard_task_runner.py:80} INFO - Job 278: Subtask cria_pasta_semana
+[2023-08-15 20:44:04,022] {task_command.py:370} INFO - Running <TaskInstance: dados_climaticos.cria_pasta_semana scheduled__2023-04-10T00:00:00+00:00 [running]> on host ubuntu.internal.cloudapp.net
+[2023-08-15 20:44:04,091] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=dados_climaticos
+AIRFLOW_CTX_TASK_ID=cria_pasta_semana
+AIRFLOW_CTX_EXECUTION_DATE=2023-04-10T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-04-10T00:00:00+00:00
+[2023-08-15 20:44:04,092] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2023-08-15 20:44:04,092] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'mkdir -p "/home/guilherme/airflow/dados/semana=2023-04/2023-04-17"']
+[2023-08-15 20:44:04,100] {subprocess.py:85} INFO - Output:
+[2023-08-15 20:44:04,102] {subprocess.py:96} INFO - Command exited with return code 0
+[2023-08-15 20:44:04,136] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=dados_climaticos, task_id=cria_pasta_semana, execution_date=20230410T000000, start_date=20230815T204403, end_date=20230815T204404
+[2023-08-15 20:44:04,174] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-08-15 20:44:04,193] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

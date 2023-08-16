@@ -1,0 +1,485 @@
+[2023-08-15 19:23:23,456] {processor.py:153} INFO - Started process (PID=37350) to work on /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 19:23:23,456] {processor.py:641} INFO - Processing file /home/guilherme/airflow/venv/dags/first_dag.py for tasks to queue
+[2023-08-15 19:23:23,457] {logging_mixin.py:115} INFO - [2023-08-15 19:23:23,457] {dagbag.py:507} INFO - Filling up the DagBag from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 19:23:23,460] {logging_mixin.py:115} INFO - [2023-08-15 19:23:23,459] {dagbag.py:320} ERROR - Failed to import: /home/guilherme/airflow/venv/dags/first_dag.py
+Traceback (most recent call last):
+  File "/home/guilherme/airflow/venv/lib/python3.9/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 846, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 983, in get_code
+  File "<frozen importlib._bootstrap_external>", line 913, in source_to_code
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/guilherme/airflow/venv/dags/first_dag.py", line 8
+    ) as dag: 
+              ^
+IndentationError: expected an indented block
+[2023-08-15 19:23:23,460] {processor.py:653} WARNING - No viable dags retrieved from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 19:23:23,495] {processor.py:161} INFO - Processing /home/guilherme/airflow/venv/dags/first_dag.py took 0.043 seconds
+[2023-08-15 19:23:59,636] {processor.py:153} INFO - Started process (PID=37606) to work on /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 19:23:59,637] {processor.py:641} INFO - Processing file /home/guilherme/airflow/venv/dags/first_dag.py for tasks to queue
+[2023-08-15 19:23:59,637] {logging_mixin.py:115} INFO - [2023-08-15 19:23:59,637] {dagbag.py:507} INFO - Filling up the DagBag from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 19:23:59,646] {processor.py:651} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 19:23:59,730] {logging_mixin.py:115} INFO - [2023-08-15 19:23:59,730] {manager.py:508} INFO - Created Permission View: can edit on DAG:first_dag
+[2023-08-15 19:23:59,749] {logging_mixin.py:115} INFO - [2023-08-15 19:23:59,749] {manager.py:508} INFO - Created Permission View: can delete on DAG:first_dag
+[2023-08-15 19:23:59,767] {logging_mixin.py:115} INFO - [2023-08-15 19:23:59,767] {manager.py:508} INFO - Created Permission View: can read on DAG:first_dag
+[2023-08-15 19:23:59,767] {logging_mixin.py:115} INFO - [2023-08-15 19:23:59,767] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-08-15 19:23:59,775] {logging_mixin.py:115} INFO - [2023-08-15 19:23:59,775] {dag.py:2398} INFO - Creating ORM DAG for first_dag
+[2023-08-15 19:23:59,784] {logging_mixin.py:115} INFO - [2023-08-15 19:23:59,784] {dag.py:2927} INFO - Setting next_dagrun for first_dag to 2023-08-14T00:00:00+00:00, run_after=2023-08-15T00:00:00+00:00
+[2023-08-15 19:23:59,820] {processor.py:161} INFO - Processing /home/guilherme/airflow/venv/dags/first_dag.py took 0.188 seconds
+[2023-08-15 19:24:31,906] {processor.py:153} INFO - Started process (PID=37690) to work on /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 19:24:31,907] {processor.py:641} INFO - Processing file /home/guilherme/airflow/venv/dags/first_dag.py for tasks to queue
+[2023-08-15 19:24:31,907] {logging_mixin.py:115} INFO - [2023-08-15 19:24:31,907] {dagbag.py:507} INFO - Filling up the DagBag from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 19:24:31,915] {processor.py:651} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 19:24:31,933] {logging_mixin.py:115} INFO - [2023-08-15 19:24:31,933] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-08-15 19:24:31,952] {logging_mixin.py:115} INFO - [2023-08-15 19:24:31,952] {dag.py:2927} INFO - Setting next_dagrun for first_dag to 2023-08-14T00:00:00+00:00, run_after=2023-08-15T00:00:00+00:00
+[2023-08-15 19:24:31,977] {processor.py:161} INFO - Processing /home/guilherme/airflow/venv/dags/first_dag.py took 0.074 seconds
+[2023-08-15 19:25:06,124] {processor.py:153} INFO - Started process (PID=37725) to work on /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 19:25:06,124] {processor.py:641} INFO - Processing file /home/guilherme/airflow/venv/dags/first_dag.py for tasks to queue
+[2023-08-15 19:25:06,125] {logging_mixin.py:115} INFO - [2023-08-15 19:25:06,125] {dagbag.py:507} INFO - Filling up the DagBag from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 19:25:06,133] {processor.py:651} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 19:25:06,150] {logging_mixin.py:115} INFO - [2023-08-15 19:25:06,150] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-08-15 19:25:06,170] {logging_mixin.py:115} INFO - [2023-08-15 19:25:06,169] {dag.py:2927} INFO - Setting next_dagrun for first_dag to 2023-08-14T00:00:00+00:00, run_after=2023-08-15T00:00:00+00:00
+[2023-08-15 19:25:06,195] {processor.py:161} INFO - Processing /home/guilherme/airflow/venv/dags/first_dag.py took 0.076 seconds
+[2023-08-15 19:25:37,658] {processor.py:153} INFO - Started process (PID=37757) to work on /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 19:25:37,659] {processor.py:641} INFO - Processing file /home/guilherme/airflow/venv/dags/first_dag.py for tasks to queue
+[2023-08-15 19:25:37,660] {logging_mixin.py:115} INFO - [2023-08-15 19:25:37,659] {dagbag.py:507} INFO - Filling up the DagBag from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 19:25:37,668] {processor.py:651} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 19:25:37,688] {logging_mixin.py:115} INFO - [2023-08-15 19:25:37,688] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-08-15 19:25:37,708] {logging_mixin.py:115} INFO - [2023-08-15 19:25:37,708] {dag.py:2927} INFO - Setting next_dagrun for first_dag to 2023-08-14T00:00:00+00:00, run_after=2023-08-15T00:00:00+00:00
+[2023-08-15 19:25:37,734] {processor.py:161} INFO - Processing /home/guilherme/airflow/venv/dags/first_dag.py took 0.079 seconds
+[2023-08-15 19:25:54,421] {processor.py:153} INFO - Started process (PID=37844) to work on /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 19:25:54,422] {processor.py:641} INFO - Processing file /home/guilherme/airflow/venv/dags/first_dag.py for tasks to queue
+[2023-08-15 19:25:54,423] {logging_mixin.py:115} INFO - [2023-08-15 19:25:54,423] {dagbag.py:507} INFO - Filling up the DagBag from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 19:25:54,437] {processor.py:651} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 19:25:54,458] {logging_mixin.py:115} INFO - [2023-08-15 19:25:54,458] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-08-15 19:25:54,488] {logging_mixin.py:115} INFO - [2023-08-15 19:25:54,488] {dag.py:2927} INFO - Setting next_dagrun for first_dag to 2023-08-14T00:00:00+00:00, run_after=2023-08-15T00:00:00+00:00
+[2023-08-15 19:25:54,525] {processor.py:161} INFO - Processing /home/guilherme/airflow/venv/dags/first_dag.py took 0.108 seconds
+[2023-08-15 19:26:30,630] {processor.py:153} INFO - Started process (PID=38189) to work on /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 19:26:30,631] {processor.py:641} INFO - Processing file /home/guilherme/airflow/venv/dags/first_dag.py for tasks to queue
+[2023-08-15 19:26:30,631] {logging_mixin.py:115} INFO - [2023-08-15 19:26:30,631] {dagbag.py:507} INFO - Filling up the DagBag from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 19:26:30,639] {processor.py:651} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 19:26:30,656] {logging_mixin.py:115} INFO - [2023-08-15 19:26:30,655] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-08-15 19:26:30,676] {logging_mixin.py:115} INFO - [2023-08-15 19:26:30,676] {dag.py:2927} INFO - Setting next_dagrun for first_dag to 2023-08-14T00:00:00+00:00, run_after=2023-08-15T00:00:00+00:00
+[2023-08-15 19:26:30,704] {processor.py:161} INFO - Processing /home/guilherme/airflow/venv/dags/first_dag.py took 0.077 seconds
+[2023-08-15 19:27:06,403] {processor.py:153} INFO - Started process (PID=38485) to work on /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 19:27:06,403] {processor.py:641} INFO - Processing file /home/guilherme/airflow/venv/dags/first_dag.py for tasks to queue
+[2023-08-15 19:27:06,404] {logging_mixin.py:115} INFO - [2023-08-15 19:27:06,404] {dagbag.py:507} INFO - Filling up the DagBag from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 19:27:06,412] {processor.py:651} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 19:27:06,428] {logging_mixin.py:115} INFO - [2023-08-15 19:27:06,428] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-08-15 19:27:06,448] {logging_mixin.py:115} INFO - [2023-08-15 19:27:06,448] {dag.py:2927} INFO - Setting next_dagrun for first_dag to 2023-08-15T00:00:00+00:00, run_after=2023-08-16T00:00:00+00:00
+[2023-08-15 19:27:06,470] {processor.py:161} INFO - Processing /home/guilherme/airflow/venv/dags/first_dag.py took 0.071 seconds
+[2023-08-15 19:27:38,133] {processor.py:153} INFO - Started process (PID=38801) to work on /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 19:27:38,134] {processor.py:641} INFO - Processing file /home/guilherme/airflow/venv/dags/first_dag.py for tasks to queue
+[2023-08-15 19:27:38,134] {logging_mixin.py:115} INFO - [2023-08-15 19:27:38,134] {dagbag.py:507} INFO - Filling up the DagBag from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 19:27:38,142] {processor.py:651} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 19:27:38,159] {logging_mixin.py:115} INFO - [2023-08-15 19:27:38,159] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-08-15 19:27:38,178] {logging_mixin.py:115} INFO - [2023-08-15 19:27:38,178] {dag.py:2927} INFO - Setting next_dagrun for first_dag to 2023-08-15T00:00:00+00:00, run_after=2023-08-16T00:00:00+00:00
+[2023-08-15 19:27:38,205] {processor.py:161} INFO - Processing /home/guilherme/airflow/venv/dags/first_dag.py took 0.076 seconds
+[2023-08-15 19:28:10,533] {processor.py:153} INFO - Started process (PID=38864) to work on /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 19:28:10,534] {processor.py:641} INFO - Processing file /home/guilherme/airflow/venv/dags/first_dag.py for tasks to queue
+[2023-08-15 19:28:10,534] {logging_mixin.py:115} INFO - [2023-08-15 19:28:10,534] {dagbag.py:507} INFO - Filling up the DagBag from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 19:28:10,543] {processor.py:651} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 19:28:10,559] {logging_mixin.py:115} INFO - [2023-08-15 19:28:10,559] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-08-15 19:28:10,578] {logging_mixin.py:115} INFO - [2023-08-15 19:28:10,578] {dag.py:2927} INFO - Setting next_dagrun for first_dag to 2023-08-15T00:00:00+00:00, run_after=2023-08-16T00:00:00+00:00
+[2023-08-15 19:28:10,602] {processor.py:161} INFO - Processing /home/guilherme/airflow/venv/dags/first_dag.py took 0.073 seconds
+[2023-08-15 19:35:27,768] {processor.py:153} INFO - Started process (PID=39072) to work on /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 19:35:27,768] {processor.py:641} INFO - Processing file /home/guilherme/airflow/venv/dags/first_dag.py for tasks to queue
+[2023-08-15 19:35:27,769] {logging_mixin.py:115} INFO - [2023-08-15 19:35:27,769] {dagbag.py:507} INFO - Filling up the DagBag from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 19:35:27,780] {processor.py:651} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 19:35:27,797] {logging_mixin.py:115} INFO - [2023-08-15 19:35:27,797] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-08-15 19:35:27,822] {logging_mixin.py:115} INFO - [2023-08-15 19:35:27,821] {dag.py:2927} INFO - Setting next_dagrun for first_dag to 2023-08-15T00:00:00+00:00, run_after=2023-08-16T00:00:00+00:00
+[2023-08-15 19:35:27,852] {processor.py:161} INFO - Processing /home/guilherme/airflow/venv/dags/first_dag.py took 0.088 seconds
+[2023-08-15 19:36:12,449] {processor.py:153} INFO - Started process (PID=39500) to work on /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 19:36:12,450] {processor.py:641} INFO - Processing file /home/guilherme/airflow/venv/dags/first_dag.py for tasks to queue
+[2023-08-15 19:36:12,450] {logging_mixin.py:115} INFO - [2023-08-15 19:36:12,450] {dagbag.py:507} INFO - Filling up the DagBag from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 19:36:12,465] {processor.py:651} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 19:36:12,528] {logging_mixin.py:115} INFO - [2023-08-15 19:36:12,528] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-08-15 19:36:12,549] {logging_mixin.py:115} INFO - [2023-08-15 19:36:12,549] {dag.py:2927} INFO - Setting next_dagrun for first_dag to 2023-08-15T00:00:00+00:00, run_after=2023-08-16T00:00:00+00:00
+[2023-08-15 19:36:12,579] {processor.py:161} INFO - Processing /home/guilherme/airflow/venv/dags/first_dag.py took 0.134 seconds
+[2023-08-15 19:36:48,635] {processor.py:153} INFO - Started process (PID=39906) to work on /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 19:36:48,635] {processor.py:641} INFO - Processing file /home/guilherme/airflow/venv/dags/first_dag.py for tasks to queue
+[2023-08-15 19:36:48,636] {logging_mixin.py:115} INFO - [2023-08-15 19:36:48,636] {dagbag.py:507} INFO - Filling up the DagBag from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 19:36:48,646] {processor.py:651} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 19:36:48,687] {logging_mixin.py:115} INFO - [2023-08-15 19:36:48,687] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-08-15 19:36:48,692] {logging_mixin.py:115} INFO - [2023-08-15 19:36:48,692] {dag.py:2398} INFO - Creating ORM DAG for first_dag
+[2023-08-15 19:36:48,699] {logging_mixin.py:115} INFO - [2023-08-15 19:36:48,699] {dag.py:2927} INFO - Setting next_dagrun for first_dag to 2023-08-13T00:00:00+00:00, run_after=2023-08-14T00:00:00+00:00
+[2023-08-15 19:36:48,722] {processor.py:161} INFO - Processing /home/guilherme/airflow/venv/dags/first_dag.py took 0.091 seconds
+[2023-08-15 19:37:23,859] {processor.py:153} INFO - Started process (PID=40286) to work on /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 19:37:23,860] {processor.py:641} INFO - Processing file /home/guilherme/airflow/venv/dags/first_dag.py for tasks to queue
+[2023-08-15 19:37:23,861] {logging_mixin.py:115} INFO - [2023-08-15 19:37:23,861] {dagbag.py:507} INFO - Filling up the DagBag from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 19:37:23,874] {processor.py:651} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 19:37:23,889] {logging_mixin.py:115} INFO - [2023-08-15 19:37:23,889] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-08-15 19:37:23,908] {logging_mixin.py:115} INFO - [2023-08-15 19:37:23,908] {dag.py:2927} INFO - Setting next_dagrun for first_dag to 2023-08-15T00:00:00+00:00, run_after=2023-08-16T00:00:00+00:00
+[2023-08-15 19:37:23,930] {processor.py:161} INFO - Processing /home/guilherme/airflow/venv/dags/first_dag.py took 0.074 seconds
+[2023-08-15 19:37:55,839] {processor.py:153} INFO - Started process (PID=40380) to work on /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 19:37:55,840] {processor.py:641} INFO - Processing file /home/guilherme/airflow/venv/dags/first_dag.py for tasks to queue
+[2023-08-15 19:37:55,841] {logging_mixin.py:115} INFO - [2023-08-15 19:37:55,840] {dagbag.py:507} INFO - Filling up the DagBag from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 19:37:55,851] {processor.py:651} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 19:37:55,869] {logging_mixin.py:115} INFO - [2023-08-15 19:37:55,868] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-08-15 19:37:55,889] {logging_mixin.py:115} INFO - [2023-08-15 19:37:55,889] {dag.py:2927} INFO - Setting next_dagrun for first_dag to 2023-08-15T00:00:00+00:00, run_after=2023-08-16T00:00:00+00:00
+[2023-08-15 19:37:55,916] {processor.py:161} INFO - Processing /home/guilherme/airflow/venv/dags/first_dag.py took 0.080 seconds
+[2023-08-15 19:38:26,857] {processor.py:153} INFO - Started process (PID=40411) to work on /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 19:38:26,858] {processor.py:641} INFO - Processing file /home/guilherme/airflow/venv/dags/first_dag.py for tasks to queue
+[2023-08-15 19:38:26,858] {logging_mixin.py:115} INFO - [2023-08-15 19:38:26,858] {dagbag.py:507} INFO - Filling up the DagBag from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 19:38:26,868] {processor.py:651} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 19:38:26,884] {logging_mixin.py:115} INFO - [2023-08-15 19:38:26,884] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-08-15 19:38:26,902] {logging_mixin.py:115} INFO - [2023-08-15 19:38:26,902] {dag.py:2927} INFO - Setting next_dagrun for first_dag to 2023-08-15T00:00:00+00:00, run_after=2023-08-16T00:00:00+00:00
+[2023-08-15 19:38:26,924] {processor.py:161} INFO - Processing /home/guilherme/airflow/venv/dags/first_dag.py took 0.070 seconds
+[2023-08-15 19:38:58,805] {processor.py:153} INFO - Started process (PID=40447) to work on /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 19:38:58,806] {processor.py:641} INFO - Processing file /home/guilherme/airflow/venv/dags/first_dag.py for tasks to queue
+[2023-08-15 19:38:58,807] {logging_mixin.py:115} INFO - [2023-08-15 19:38:58,806] {dagbag.py:507} INFO - Filling up the DagBag from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 19:38:58,816] {processor.py:651} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 19:38:58,831] {logging_mixin.py:115} INFO - [2023-08-15 19:38:58,831] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-08-15 19:38:58,849] {logging_mixin.py:115} INFO - [2023-08-15 19:38:58,849] {dag.py:2927} INFO - Setting next_dagrun for first_dag to 2023-08-15T00:00:00+00:00, run_after=2023-08-16T00:00:00+00:00
+[2023-08-15 19:38:58,873] {processor.py:161} INFO - Processing /home/guilherme/airflow/venv/dags/first_dag.py took 0.071 seconds
+[2023-08-15 19:39:33,536] {processor.py:153} INFO - Started process (PID=40482) to work on /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 19:39:33,537] {processor.py:641} INFO - Processing file /home/guilherme/airflow/venv/dags/first_dag.py for tasks to queue
+[2023-08-15 19:39:33,537] {logging_mixin.py:115} INFO - [2023-08-15 19:39:33,537] {dagbag.py:507} INFO - Filling up the DagBag from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 19:39:33,548] {processor.py:651} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 19:39:33,564] {logging_mixin.py:115} INFO - [2023-08-15 19:39:33,564] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-08-15 19:39:33,582] {logging_mixin.py:115} INFO - [2023-08-15 19:39:33,582] {dag.py:2927} INFO - Setting next_dagrun for first_dag to 2023-08-15T00:00:00+00:00, run_after=2023-08-16T00:00:00+00:00
+[2023-08-15 19:39:33,601] {processor.py:161} INFO - Processing /home/guilherme/airflow/venv/dags/first_dag.py took 0.069 seconds
+[2023-08-15 19:40:05,925] {processor.py:153} INFO - Started process (PID=40515) to work on /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 19:40:05,925] {processor.py:641} INFO - Processing file /home/guilherme/airflow/venv/dags/first_dag.py for tasks to queue
+[2023-08-15 19:40:05,926] {logging_mixin.py:115} INFO - [2023-08-15 19:40:05,926] {dagbag.py:507} INFO - Filling up the DagBag from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 19:40:05,936] {processor.py:651} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 19:40:05,952] {logging_mixin.py:115} INFO - [2023-08-15 19:40:05,952] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-08-15 19:40:05,971] {logging_mixin.py:115} INFO - [2023-08-15 19:40:05,971] {dag.py:2927} INFO - Setting next_dagrun for first_dag to 2023-08-15T00:00:00+00:00, run_after=2023-08-16T00:00:00+00:00
+[2023-08-15 19:40:05,995] {processor.py:161} INFO - Processing /home/guilherme/airflow/venv/dags/first_dag.py took 0.073 seconds
+[2023-08-15 19:57:50,244] {processor.py:153} INFO - Started process (PID=40883) to work on /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 19:57:50,252] {processor.py:641} INFO - Processing file /home/guilherme/airflow/venv/dags/first_dag.py for tasks to queue
+[2023-08-15 19:57:50,253] {logging_mixin.py:115} INFO - [2023-08-15 19:57:50,253] {dagbag.py:507} INFO - Filling up the DagBag from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 19:57:50,308] {processor.py:651} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 19:57:50,337] {logging_mixin.py:115} INFO - [2023-08-15 19:57:50,337] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-08-15 19:57:50,412] {logging_mixin.py:115} INFO - [2023-08-15 19:57:50,412] {dag.py:2927} INFO - Setting next_dagrun for first_dag to 2023-08-15T00:00:00+00:00, run_after=2023-08-16T00:00:00+00:00
+[2023-08-15 19:57:50,473] {processor.py:161} INFO - Processing /home/guilherme/airflow/venv/dags/first_dag.py took 0.244 seconds
+[2023-08-15 19:58:52,386] {processor.py:153} INFO - Started process (PID=41306) to work on /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 19:58:52,404] {processor.py:641} INFO - Processing file /home/guilherme/airflow/venv/dags/first_dag.py for tasks to queue
+[2023-08-15 19:58:52,405] {logging_mixin.py:115} INFO - [2023-08-15 19:58:52,405] {dagbag.py:507} INFO - Filling up the DagBag from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 19:58:52,435] {processor.py:651} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 19:58:52,483] {logging_mixin.py:115} INFO - [2023-08-15 19:58:52,483] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-08-15 19:58:52,539] {logging_mixin.py:115} INFO - [2023-08-15 19:58:52,539] {dag.py:2927} INFO - Setting next_dagrun for first_dag to 2023-08-15T00:00:00+00:00, run_after=2023-08-16T00:00:00+00:00
+[2023-08-15 19:58:52,589] {processor.py:161} INFO - Processing /home/guilherme/airflow/venv/dags/first_dag.py took 0.209 seconds
+[2023-08-15 19:59:40,858] {processor.py:153} INFO - Started process (PID=41873) to work on /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 19:59:40,858] {processor.py:641} INFO - Processing file /home/guilherme/airflow/venv/dags/first_dag.py for tasks to queue
+[2023-08-15 19:59:40,859] {logging_mixin.py:115} INFO - [2023-08-15 19:59:40,859] {dagbag.py:507} INFO - Filling up the DagBag from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 19:59:40,871] {processor.py:651} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 19:59:40,885] {logging_mixin.py:115} INFO - [2023-08-15 19:59:40,885] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-08-15 19:59:40,903] {logging_mixin.py:115} INFO - [2023-08-15 19:59:40,903] {dag.py:2927} INFO - Setting next_dagrun for first_dag to 2023-08-15T00:00:00+00:00, run_after=2023-08-16T00:00:00+00:00
+[2023-08-15 19:59:40,923] {processor.py:161} INFO - Processing /home/guilherme/airflow/venv/dags/first_dag.py took 0.068 seconds
+[2023-08-15 20:00:34,822] {processor.py:153} INFO - Started process (PID=42524) to work on /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:00:34,823] {processor.py:641} INFO - Processing file /home/guilherme/airflow/venv/dags/first_dag.py for tasks to queue
+[2023-08-15 20:00:34,823] {logging_mixin.py:115} INFO - [2023-08-15 20:00:34,823] {dagbag.py:507} INFO - Filling up the DagBag from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:00:34,833] {processor.py:651} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:00:34,847] {logging_mixin.py:115} INFO - [2023-08-15 20:00:34,847] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-08-15 20:00:34,864] {logging_mixin.py:115} INFO - [2023-08-15 20:00:34,864] {dag.py:2927} INFO - Setting next_dagrun for first_dag to 2023-08-15T00:00:00+00:00, run_after=2023-08-16T00:00:00+00:00
+[2023-08-15 20:00:34,886] {processor.py:161} INFO - Processing /home/guilherme/airflow/venv/dags/first_dag.py took 0.067 seconds
+[2023-08-15 20:01:32,710] {processor.py:153} INFO - Started process (PID=43185) to work on /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:01:32,716] {processor.py:641} INFO - Processing file /home/guilherme/airflow/venv/dags/first_dag.py for tasks to queue
+[2023-08-15 20:01:32,717] {logging_mixin.py:115} INFO - [2023-08-15 20:01:32,717] {dagbag.py:507} INFO - Filling up the DagBag from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:01:32,747] {processor.py:651} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:01:32,815] {logging_mixin.py:115} INFO - [2023-08-15 20:01:32,815] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-08-15 20:01:32,906] {logging_mixin.py:115} INFO - [2023-08-15 20:01:32,906] {dag.py:2927} INFO - Setting next_dagrun for first_dag to 2023-08-15T00:00:00+00:00, run_after=2023-08-16T00:00:00+00:00
+[2023-08-15 20:01:32,957] {processor.py:161} INFO - Processing /home/guilherme/airflow/venv/dags/first_dag.py took 0.264 seconds
+[2023-08-15 20:02:22,424] {processor.py:153} INFO - Started process (PID=43790) to work on /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:02:22,425] {processor.py:641} INFO - Processing file /home/guilherme/airflow/venv/dags/first_dag.py for tasks to queue
+[2023-08-15 20:02:22,425] {logging_mixin.py:115} INFO - [2023-08-15 20:02:22,425] {dagbag.py:507} INFO - Filling up the DagBag from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:02:22,437] {processor.py:651} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:02:22,453] {logging_mixin.py:115} INFO - [2023-08-15 20:02:22,453] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-08-15 20:02:22,474] {logging_mixin.py:115} INFO - [2023-08-15 20:02:22,474] {dag.py:2927} INFO - Setting next_dagrun for first_dag to 2023-08-15T00:00:00+00:00, run_after=2023-08-16T00:00:00+00:00
+[2023-08-15 20:02:22,495] {processor.py:161} INFO - Processing /home/guilherme/airflow/venv/dags/first_dag.py took 0.075 seconds
+[2023-08-15 20:03:19,510] {processor.py:153} INFO - Started process (PID=44277) to work on /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:03:19,511] {processor.py:641} INFO - Processing file /home/guilherme/airflow/venv/dags/first_dag.py for tasks to queue
+[2023-08-15 20:03:19,512] {logging_mixin.py:115} INFO - [2023-08-15 20:03:19,512] {dagbag.py:507} INFO - Filling up the DagBag from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:03:19,525] {processor.py:651} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:03:19,545] {logging_mixin.py:115} INFO - [2023-08-15 20:03:19,545] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-08-15 20:03:19,574] {logging_mixin.py:115} INFO - [2023-08-15 20:03:19,574] {dag.py:2927} INFO - Setting next_dagrun for first_dag to 2023-08-15T00:00:00+00:00, run_after=2023-08-16T00:00:00+00:00
+[2023-08-15 20:03:19,675] {processor.py:161} INFO - Processing /home/guilherme/airflow/venv/dags/first_dag.py took 0.169 seconds
+[2023-08-15 20:04:36,526] {processor.py:153} INFO - Started process (PID=45193) to work on /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:04:36,527] {processor.py:641} INFO - Processing file /home/guilherme/airflow/venv/dags/first_dag.py for tasks to queue
+[2023-08-15 20:04:36,528] {logging_mixin.py:115} INFO - [2023-08-15 20:04:36,527] {dagbag.py:507} INFO - Filling up the DagBag from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:04:36,540] {processor.py:651} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:04:36,585] {logging_mixin.py:115} INFO - [2023-08-15 20:04:36,585] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-08-15 20:04:36,591] {logging_mixin.py:115} INFO - [2023-08-15 20:04:36,591] {dag.py:2398} INFO - Creating ORM DAG for first_dag
+[2023-08-15 20:04:36,600] {logging_mixin.py:115} INFO - [2023-08-15 20:04:36,600] {dag.py:2927} INFO - Setting next_dagrun for first_dag to 2023-08-13T00:00:00+00:00, run_after=2023-08-14T00:00:00+00:00
+[2023-08-15 20:04:36,626] {processor.py:161} INFO - Processing /home/guilherme/airflow/venv/dags/first_dag.py took 0.103 seconds
+[2023-08-15 20:05:30,777] {processor.py:153} INFO - Started process (PID=45659) to work on /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:05:30,784] {processor.py:641} INFO - Processing file /home/guilherme/airflow/venv/dags/first_dag.py for tasks to queue
+[2023-08-15 20:05:30,785] {logging_mixin.py:115} INFO - [2023-08-15 20:05:30,785] {dagbag.py:507} INFO - Filling up the DagBag from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:05:30,828] {processor.py:651} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:05:30,875] {logging_mixin.py:115} INFO - [2023-08-15 20:05:30,874] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-08-15 20:05:30,965] {logging_mixin.py:115} INFO - [2023-08-15 20:05:30,964] {dag.py:2927} INFO - Setting next_dagrun for first_dag to 2023-08-13T00:00:00+00:00, run_after=2023-08-14T00:00:00+00:00
+[2023-08-15 20:05:31,075] {processor.py:161} INFO - Processing /home/guilherme/airflow/venv/dags/first_dag.py took 0.319 seconds
+[2023-08-15 20:07:37,248] {processor.py:153} INFO - Started process (PID=45986) to work on /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:07:37,252] {processor.py:641} INFO - Processing file /home/guilherme/airflow/venv/dags/first_dag.py for tasks to queue
+[2023-08-15 20:07:37,253] {logging_mixin.py:115} INFO - [2023-08-15 20:07:37,253] {dagbag.py:507} INFO - Filling up the DagBag from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:07:37,285] {processor.py:651} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:07:37,333] {logging_mixin.py:115} INFO - [2023-08-15 20:07:37,332] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-08-15 20:07:37,390] {logging_mixin.py:115} INFO - [2023-08-15 20:07:37,390] {dag.py:2927} INFO - Setting next_dagrun for first_dag to 2023-08-13T00:00:00+00:00, run_after=2023-08-14T00:00:00+00:00
+[2023-08-15 20:07:37,451] {processor.py:161} INFO - Processing /home/guilherme/airflow/venv/dags/first_dag.py took 0.217 seconds
+[2023-08-15 20:08:13,749] {processor.py:153} INFO - Started process (PID=46361) to work on /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:08:13,749] {processor.py:641} INFO - Processing file /home/guilherme/airflow/venv/dags/first_dag.py for tasks to queue
+[2023-08-15 20:08:13,750] {logging_mixin.py:115} INFO - [2023-08-15 20:08:13,750] {dagbag.py:507} INFO - Filling up the DagBag from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:08:13,761] {processor.py:651} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:08:13,777] {logging_mixin.py:115} INFO - [2023-08-15 20:08:13,777] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-08-15 20:08:13,797] {logging_mixin.py:115} INFO - [2023-08-15 20:08:13,797] {dag.py:2927} INFO - Setting next_dagrun for first_dag to 2023-08-13T00:00:00+00:00, run_after=2023-08-14T00:00:00+00:00
+[2023-08-15 20:08:13,823] {processor.py:161} INFO - Processing /home/guilherme/airflow/venv/dags/first_dag.py took 0.078 seconds
+[2023-08-15 20:09:09,396] {processor.py:153} INFO - Started process (PID=47026) to work on /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:09:09,396] {processor.py:641} INFO - Processing file /home/guilherme/airflow/venv/dags/first_dag.py for tasks to queue
+[2023-08-15 20:09:09,397] {logging_mixin.py:115} INFO - [2023-08-15 20:09:09,397] {dagbag.py:507} INFO - Filling up the DagBag from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:09:09,408] {processor.py:651} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:09:09,424] {logging_mixin.py:115} INFO - [2023-08-15 20:09:09,424] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-08-15 20:09:09,443] {logging_mixin.py:115} INFO - [2023-08-15 20:09:09,443] {dag.py:2927} INFO - Setting next_dagrun for first_dag to 2023-08-13T00:00:00+00:00, run_after=2023-08-14T00:00:00+00:00
+[2023-08-15 20:09:09,464] {processor.py:161} INFO - Processing /home/guilherme/airflow/venv/dags/first_dag.py took 0.072 seconds
+[2023-08-15 20:09:43,419] {processor.py:153} INFO - Started process (PID=47444) to work on /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:09:43,420] {processor.py:641} INFO - Processing file /home/guilherme/airflow/venv/dags/first_dag.py for tasks to queue
+[2023-08-15 20:09:43,420] {logging_mixin.py:115} INFO - [2023-08-15 20:09:43,420] {dagbag.py:507} INFO - Filling up the DagBag from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:09:43,434] {processor.py:651} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:09:43,452] {logging_mixin.py:115} INFO - [2023-08-15 20:09:43,452] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-08-15 20:09:43,473] {logging_mixin.py:115} INFO - [2023-08-15 20:09:43,473] {dag.py:2927} INFO - Setting next_dagrun for first_dag to 2023-08-13T00:00:00+00:00, run_after=2023-08-14T00:00:00+00:00
+[2023-08-15 20:09:43,497] {processor.py:161} INFO - Processing /home/guilherme/airflow/venv/dags/first_dag.py took 0.082 seconds
+[2023-08-15 20:11:08,255] {processor.py:153} INFO - Started process (PID=47791) to work on /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:11:08,268] {processor.py:641} INFO - Processing file /home/guilherme/airflow/venv/dags/first_dag.py for tasks to queue
+[2023-08-15 20:11:08,269] {logging_mixin.py:115} INFO - [2023-08-15 20:11:08,269] {dagbag.py:507} INFO - Filling up the DagBag from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:11:08,305] {processor.py:651} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:11:08,349] {logging_mixin.py:115} INFO - [2023-08-15 20:11:08,349] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-08-15 20:11:08,415] {logging_mixin.py:115} INFO - [2023-08-15 20:11:08,414] {dag.py:2927} INFO - Setting next_dagrun for first_dag to 2023-08-13T00:00:00+00:00, run_after=2023-08-14T00:00:00+00:00
+[2023-08-15 20:11:08,453] {processor.py:161} INFO - Processing /home/guilherme/airflow/venv/dags/first_dag.py took 0.218 seconds
+[2023-08-15 20:15:19,243] {processor.py:153} INFO - Started process (PID=48479) to work on /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:15:19,244] {processor.py:641} INFO - Processing file /home/guilherme/airflow/venv/dags/first_dag.py for tasks to queue
+[2023-08-15 20:15:19,245] {logging_mixin.py:115} INFO - [2023-08-15 20:15:19,245] {dagbag.py:507} INFO - Filling up the DagBag from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:15:19,256] {processor.py:651} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:15:19,272] {logging_mixin.py:115} INFO - [2023-08-15 20:15:19,272] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-08-15 20:15:19,291] {logging_mixin.py:115} INFO - [2023-08-15 20:15:19,291] {dag.py:2927} INFO - Setting next_dagrun for first_dag to 2023-08-13T00:00:00+00:00, run_after=2023-08-14T00:00:00+00:00
+[2023-08-15 20:15:19,315] {processor.py:161} INFO - Processing /home/guilherme/airflow/venv/dags/first_dag.py took 0.075 seconds
+[2023-08-15 20:16:36,756] {processor.py:153} INFO - Started process (PID=49301) to work on /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:16:36,757] {processor.py:641} INFO - Processing file /home/guilherme/airflow/venv/dags/first_dag.py for tasks to queue
+[2023-08-15 20:16:36,757] {logging_mixin.py:115} INFO - [2023-08-15 20:16:36,757] {dagbag.py:507} INFO - Filling up the DagBag from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:16:36,769] {processor.py:651} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:16:36,786] {logging_mixin.py:115} INFO - [2023-08-15 20:16:36,785] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-08-15 20:16:36,805] {logging_mixin.py:115} INFO - [2023-08-15 20:16:36,805] {dag.py:2927} INFO - Setting next_dagrun for first_dag to 2023-08-13T00:00:00+00:00, run_after=2023-08-14T00:00:00+00:00
+[2023-08-15 20:16:36,827] {processor.py:161} INFO - Processing /home/guilherme/airflow/venv/dags/first_dag.py took 0.074 seconds
+[2023-08-15 20:17:08,988] {processor.py:153} INFO - Started process (PID=49338) to work on /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:17:08,989] {processor.py:641} INFO - Processing file /home/guilherme/airflow/venv/dags/first_dag.py for tasks to queue
+[2023-08-15 20:17:08,989] {logging_mixin.py:115} INFO - [2023-08-15 20:17:08,989] {dagbag.py:507} INFO - Filling up the DagBag from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:17:09,000] {processor.py:651} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:17:09,017] {logging_mixin.py:115} INFO - [2023-08-15 20:17:09,017] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-08-15 20:17:09,036] {logging_mixin.py:115} INFO - [2023-08-15 20:17:09,036] {dag.py:2927} INFO - Setting next_dagrun for first_dag to 2023-08-13T00:00:00+00:00, run_after=2023-08-14T00:00:00+00:00
+[2023-08-15 20:17:09,059] {processor.py:161} INFO - Processing /home/guilherme/airflow/venv/dags/first_dag.py took 0.074 seconds
+[2023-08-15 20:17:42,893] {processor.py:153} INFO - Started process (PID=49378) to work on /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:17:42,894] {processor.py:641} INFO - Processing file /home/guilherme/airflow/venv/dags/first_dag.py for tasks to queue
+[2023-08-15 20:17:42,894] {logging_mixin.py:115} INFO - [2023-08-15 20:17:42,894] {dagbag.py:507} INFO - Filling up the DagBag from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:17:42,905] {processor.py:651} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:17:42,925] {logging_mixin.py:115} INFO - [2023-08-15 20:17:42,924] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-08-15 20:17:42,945] {logging_mixin.py:115} INFO - [2023-08-15 20:17:42,945] {dag.py:2927} INFO - Setting next_dagrun for first_dag to 2023-08-13T00:00:00+00:00, run_after=2023-08-14T00:00:00+00:00
+[2023-08-15 20:17:42,967] {processor.py:161} INFO - Processing /home/guilherme/airflow/venv/dags/first_dag.py took 0.077 seconds
+[2023-08-15 20:18:17,270] {processor.py:153} INFO - Started process (PID=49413) to work on /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:18:17,270] {processor.py:641} INFO - Processing file /home/guilherme/airflow/venv/dags/first_dag.py for tasks to queue
+[2023-08-15 20:18:17,271] {logging_mixin.py:115} INFO - [2023-08-15 20:18:17,271] {dagbag.py:507} INFO - Filling up the DagBag from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:18:17,281] {processor.py:651} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:18:17,298] {logging_mixin.py:115} INFO - [2023-08-15 20:18:17,298] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-08-15 20:18:17,318] {logging_mixin.py:115} INFO - [2023-08-15 20:18:17,317] {dag.py:2927} INFO - Setting next_dagrun for first_dag to 2023-08-13T00:00:00+00:00, run_after=2023-08-14T00:00:00+00:00
+[2023-08-15 20:18:17,341] {processor.py:161} INFO - Processing /home/guilherme/airflow/venv/dags/first_dag.py took 0.074 seconds
+[2023-08-15 20:18:51,399] {processor.py:153} INFO - Started process (PID=49449) to work on /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:18:51,400] {processor.py:641} INFO - Processing file /home/guilherme/airflow/venv/dags/first_dag.py for tasks to queue
+[2023-08-15 20:18:51,400] {logging_mixin.py:115} INFO - [2023-08-15 20:18:51,400] {dagbag.py:507} INFO - Filling up the DagBag from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:18:51,410] {processor.py:651} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:18:51,428] {logging_mixin.py:115} INFO - [2023-08-15 20:18:51,428] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-08-15 20:18:51,449] {logging_mixin.py:115} INFO - [2023-08-15 20:18:51,449] {dag.py:2927} INFO - Setting next_dagrun for first_dag to 2023-08-13T00:00:00+00:00, run_after=2023-08-14T00:00:00+00:00
+[2023-08-15 20:18:51,474] {processor.py:161} INFO - Processing /home/guilherme/airflow/venv/dags/first_dag.py took 0.078 seconds
+[2023-08-15 20:19:26,173] {processor.py:153} INFO - Started process (PID=49484) to work on /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:19:26,174] {processor.py:641} INFO - Processing file /home/guilherme/airflow/venv/dags/first_dag.py for tasks to queue
+[2023-08-15 20:19:26,175] {logging_mixin.py:115} INFO - [2023-08-15 20:19:26,175] {dagbag.py:507} INFO - Filling up the DagBag from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:19:26,186] {processor.py:651} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:19:26,203] {logging_mixin.py:115} INFO - [2023-08-15 20:19:26,203] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-08-15 20:19:26,224] {logging_mixin.py:115} INFO - [2023-08-15 20:19:26,224] {dag.py:2927} INFO - Setting next_dagrun for first_dag to 2023-08-13T00:00:00+00:00, run_after=2023-08-14T00:00:00+00:00
+[2023-08-15 20:19:26,251] {processor.py:161} INFO - Processing /home/guilherme/airflow/venv/dags/first_dag.py took 0.081 seconds
+[2023-08-15 20:19:59,865] {processor.py:153} INFO - Started process (PID=49571) to work on /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:19:59,865] {processor.py:641} INFO - Processing file /home/guilherme/airflow/venv/dags/first_dag.py for tasks to queue
+[2023-08-15 20:19:59,865] {logging_mixin.py:115} INFO - [2023-08-15 20:19:59,865] {dagbag.py:507} INFO - Filling up the DagBag from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:19:59,877] {processor.py:651} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:19:59,896] {logging_mixin.py:115} INFO - [2023-08-15 20:19:59,896] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-08-15 20:19:59,913] {logging_mixin.py:115} INFO - [2023-08-15 20:19:59,913] {dag.py:2927} INFO - Setting next_dagrun for first_dag to 2023-08-13T00:00:00+00:00, run_after=2023-08-14T00:00:00+00:00
+[2023-08-15 20:19:59,934] {processor.py:161} INFO - Processing /home/guilherme/airflow/venv/dags/first_dag.py took 0.073 seconds
+[2023-08-15 20:20:32,643] {processor.py:153} INFO - Started process (PID=49606) to work on /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:20:32,644] {processor.py:641} INFO - Processing file /home/guilherme/airflow/venv/dags/first_dag.py for tasks to queue
+[2023-08-15 20:20:32,645] {logging_mixin.py:115} INFO - [2023-08-15 20:20:32,644] {dagbag.py:507} INFO - Filling up the DagBag from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:20:32,655] {processor.py:651} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:20:32,673] {logging_mixin.py:115} INFO - [2023-08-15 20:20:32,673] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-08-15 20:20:32,689] {logging_mixin.py:115} INFO - [2023-08-15 20:20:32,689] {dag.py:2927} INFO - Setting next_dagrun for first_dag to 2023-08-13T00:00:00+00:00, run_after=2023-08-14T00:00:00+00:00
+[2023-08-15 20:20:32,714] {processor.py:161} INFO - Processing /home/guilherme/airflow/venv/dags/first_dag.py took 0.074 seconds
+[2023-08-15 20:21:03,582] {processor.py:153} INFO - Started process (PID=49638) to work on /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:21:03,583] {processor.py:641} INFO - Processing file /home/guilherme/airflow/venv/dags/first_dag.py for tasks to queue
+[2023-08-15 20:21:03,583] {logging_mixin.py:115} INFO - [2023-08-15 20:21:03,583] {dagbag.py:507} INFO - Filling up the DagBag from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:21:03,594] {processor.py:651} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:21:03,611] {logging_mixin.py:115} INFO - [2023-08-15 20:21:03,611] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-08-15 20:21:03,627] {logging_mixin.py:115} INFO - [2023-08-15 20:21:03,627] {dag.py:2927} INFO - Setting next_dagrun for first_dag to 2023-08-13T00:00:00+00:00, run_after=2023-08-14T00:00:00+00:00
+[2023-08-15 20:21:03,652] {processor.py:161} INFO - Processing /home/guilherme/airflow/venv/dags/first_dag.py took 0.074 seconds
+[2023-08-15 20:21:34,077] {processor.py:153} INFO - Started process (PID=49722) to work on /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:21:34,078] {processor.py:641} INFO - Processing file /home/guilherme/airflow/venv/dags/first_dag.py for tasks to queue
+[2023-08-15 20:21:34,078] {logging_mixin.py:115} INFO - [2023-08-15 20:21:34,078] {dagbag.py:507} INFO - Filling up the DagBag from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:21:34,088] {processor.py:651} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:21:34,108] {logging_mixin.py:115} INFO - [2023-08-15 20:21:34,108] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-08-15 20:21:34,125] {logging_mixin.py:115} INFO - [2023-08-15 20:21:34,125] {dag.py:2927} INFO - Setting next_dagrun for first_dag to 2023-08-13T00:00:00+00:00, run_after=2023-08-14T00:00:00+00:00
+[2023-08-15 20:21:34,186] {processor.py:161} INFO - Processing /home/guilherme/airflow/venv/dags/first_dag.py took 0.112 seconds
+[2023-08-15 20:22:06,872] {processor.py:153} INFO - Started process (PID=49757) to work on /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:22:06,872] {processor.py:641} INFO - Processing file /home/guilherme/airflow/venv/dags/first_dag.py for tasks to queue
+[2023-08-15 20:22:06,873] {logging_mixin.py:115} INFO - [2023-08-15 20:22:06,873] {dagbag.py:507} INFO - Filling up the DagBag from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:22:06,884] {processor.py:651} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:22:06,903] {logging_mixin.py:115} INFO - [2023-08-15 20:22:06,903] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-08-15 20:22:06,921] {logging_mixin.py:115} INFO - [2023-08-15 20:22:06,921] {dag.py:2927} INFO - Setting next_dagrun for first_dag to 2023-08-13T00:00:00+00:00, run_after=2023-08-14T00:00:00+00:00
+[2023-08-15 20:22:06,942] {processor.py:161} INFO - Processing /home/guilherme/airflow/venv/dags/first_dag.py took 0.074 seconds
+[2023-08-15 20:22:41,892] {processor.py:153} INFO - Started process (PID=49797) to work on /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:22:41,893] {processor.py:641} INFO - Processing file /home/guilherme/airflow/venv/dags/first_dag.py for tasks to queue
+[2023-08-15 20:22:41,894] {logging_mixin.py:115} INFO - [2023-08-15 20:22:41,894] {dagbag.py:507} INFO - Filling up the DagBag from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:22:41,905] {processor.py:651} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:22:41,923] {logging_mixin.py:115} INFO - [2023-08-15 20:22:41,923] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-08-15 20:22:41,940] {logging_mixin.py:115} INFO - [2023-08-15 20:22:41,940] {dag.py:2927} INFO - Setting next_dagrun for first_dag to 2023-08-13T00:00:00+00:00, run_after=2023-08-14T00:00:00+00:00
+[2023-08-15 20:22:41,965] {processor.py:161} INFO - Processing /home/guilherme/airflow/venv/dags/first_dag.py took 0.076 seconds
+[2023-08-15 20:23:13,050] {processor.py:153} INFO - Started process (PID=49829) to work on /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:23:13,051] {processor.py:641} INFO - Processing file /home/guilherme/airflow/venv/dags/first_dag.py for tasks to queue
+[2023-08-15 20:23:13,051] {logging_mixin.py:115} INFO - [2023-08-15 20:23:13,051] {dagbag.py:507} INFO - Filling up the DagBag from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:23:13,064] {processor.py:651} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:23:13,083] {logging_mixin.py:115} INFO - [2023-08-15 20:23:13,083] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-08-15 20:23:13,100] {logging_mixin.py:115} INFO - [2023-08-15 20:23:13,100] {dag.py:2927} INFO - Setting next_dagrun for first_dag to 2023-08-13T00:00:00+00:00, run_after=2023-08-14T00:00:00+00:00
+[2023-08-15 20:23:13,124] {processor.py:161} INFO - Processing /home/guilherme/airflow/venv/dags/first_dag.py took 0.078 seconds
+[2023-08-15 20:23:45,139] {processor.py:153} INFO - Started process (PID=49863) to work on /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:23:45,139] {processor.py:641} INFO - Processing file /home/guilherme/airflow/venv/dags/first_dag.py for tasks to queue
+[2023-08-15 20:23:45,140] {logging_mixin.py:115} INFO - [2023-08-15 20:23:45,140] {dagbag.py:507} INFO - Filling up the DagBag from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:23:45,150] {processor.py:651} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:23:45,169] {logging_mixin.py:115} INFO - [2023-08-15 20:23:45,169] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-08-15 20:23:45,186] {logging_mixin.py:115} INFO - [2023-08-15 20:23:45,186] {dag.py:2927} INFO - Setting next_dagrun for first_dag to 2023-08-13T00:00:00+00:00, run_after=2023-08-14T00:00:00+00:00
+[2023-08-15 20:23:45,216] {processor.py:161} INFO - Processing /home/guilherme/airflow/venv/dags/first_dag.py took 0.081 seconds
+[2023-08-15 20:24:19,346] {processor.py:153} INFO - Started process (PID=49897) to work on /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:24:19,346] {processor.py:641} INFO - Processing file /home/guilherme/airflow/venv/dags/first_dag.py for tasks to queue
+[2023-08-15 20:24:19,347] {logging_mixin.py:115} INFO - [2023-08-15 20:24:19,347] {dagbag.py:507} INFO - Filling up the DagBag from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:24:19,358] {processor.py:651} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:24:19,376] {logging_mixin.py:115} INFO - [2023-08-15 20:24:19,376] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-08-15 20:24:19,392] {logging_mixin.py:115} INFO - [2023-08-15 20:24:19,392] {dag.py:2927} INFO - Setting next_dagrun for first_dag to 2023-08-13T00:00:00+00:00, run_after=2023-08-14T00:00:00+00:00
+[2023-08-15 20:24:19,417] {processor.py:161} INFO - Processing /home/guilherme/airflow/venv/dags/first_dag.py took 0.074 seconds
+[2023-08-15 20:24:50,845] {processor.py:153} INFO - Started process (PID=49929) to work on /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:24:50,846] {processor.py:641} INFO - Processing file /home/guilherme/airflow/venv/dags/first_dag.py for tasks to queue
+[2023-08-15 20:24:50,846] {logging_mixin.py:115} INFO - [2023-08-15 20:24:50,846] {dagbag.py:507} INFO - Filling up the DagBag from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:24:50,857] {processor.py:651} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:24:50,875] {logging_mixin.py:115} INFO - [2023-08-15 20:24:50,875] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-08-15 20:24:50,890] {logging_mixin.py:115} INFO - [2023-08-15 20:24:50,890] {dag.py:2927} INFO - Setting next_dagrun for first_dag to 2023-08-13T00:00:00+00:00, run_after=2023-08-14T00:00:00+00:00
+[2023-08-15 20:24:50,915] {processor.py:161} INFO - Processing /home/guilherme/airflow/venv/dags/first_dag.py took 0.073 seconds
+[2023-08-15 20:25:25,976] {processor.py:153} INFO - Started process (PID=50016) to work on /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:25:25,977] {processor.py:641} INFO - Processing file /home/guilherme/airflow/venv/dags/first_dag.py for tasks to queue
+[2023-08-15 20:25:25,977] {logging_mixin.py:115} INFO - [2023-08-15 20:25:25,977] {dagbag.py:507} INFO - Filling up the DagBag from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:25:25,988] {processor.py:651} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:25:26,007] {logging_mixin.py:115} INFO - [2023-08-15 20:25:26,006] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-08-15 20:25:26,023] {logging_mixin.py:115} INFO - [2023-08-15 20:25:26,023] {dag.py:2927} INFO - Setting next_dagrun for first_dag to 2023-08-13T00:00:00+00:00, run_after=2023-08-14T00:00:00+00:00
+[2023-08-15 20:25:26,046] {processor.py:161} INFO - Processing /home/guilherme/airflow/venv/dags/first_dag.py took 0.073 seconds
+[2023-08-15 20:26:01,434] {processor.py:153} INFO - Started process (PID=50246) to work on /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:26:01,440] {processor.py:641} INFO - Processing file /home/guilherme/airflow/venv/dags/first_dag.py for tasks to queue
+[2023-08-15 20:26:01,441] {logging_mixin.py:115} INFO - [2023-08-15 20:26:01,441] {dagbag.py:507} INFO - Filling up the DagBag from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:26:01,482] {processor.py:651} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:26:01,557] {logging_mixin.py:115} INFO - [2023-08-15 20:26:01,557] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-08-15 20:26:01,654] {logging_mixin.py:115} INFO - [2023-08-15 20:26:01,653] {dag.py:2927} INFO - Setting next_dagrun for first_dag to 2023-08-13T00:00:00+00:00, run_after=2023-08-14T00:00:00+00:00
+[2023-08-15 20:26:01,706] {processor.py:161} INFO - Processing /home/guilherme/airflow/venv/dags/first_dag.py took 0.293 seconds
+[2023-08-15 20:26:38,055] {processor.py:153} INFO - Started process (PID=50439) to work on /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:26:38,055] {processor.py:641} INFO - Processing file /home/guilherme/airflow/venv/dags/first_dag.py for tasks to queue
+[2023-08-15 20:26:38,056] {logging_mixin.py:115} INFO - [2023-08-15 20:26:38,056] {dagbag.py:507} INFO - Filling up the DagBag from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:26:38,066] {processor.py:651} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:26:38,081] {logging_mixin.py:115} INFO - [2023-08-15 20:26:38,081] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-08-15 20:26:38,100] {logging_mixin.py:115} INFO - [2023-08-15 20:26:38,100] {dag.py:2927} INFO - Setting next_dagrun for first_dag to 2023-08-13T00:00:00+00:00, run_after=2023-08-14T00:00:00+00:00
+[2023-08-15 20:26:38,126] {processor.py:161} INFO - Processing /home/guilherme/airflow/venv/dags/first_dag.py took 0.074 seconds
+[2023-08-15 20:27:10,330] {processor.py:153} INFO - Started process (PID=50473) to work on /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:27:10,331] {processor.py:641} INFO - Processing file /home/guilherme/airflow/venv/dags/first_dag.py for tasks to queue
+[2023-08-15 20:27:10,332] {logging_mixin.py:115} INFO - [2023-08-15 20:27:10,332] {dagbag.py:507} INFO - Filling up the DagBag from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:27:10,341] {processor.py:651} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:27:10,356] {logging_mixin.py:115} INFO - [2023-08-15 20:27:10,356] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-08-15 20:27:10,374] {logging_mixin.py:115} INFO - [2023-08-15 20:27:10,374] {dag.py:2927} INFO - Setting next_dagrun for first_dag to 2023-08-13T00:00:00+00:00, run_after=2023-08-14T00:00:00+00:00
+[2023-08-15 20:27:10,400] {processor.py:161} INFO - Processing /home/guilherme/airflow/venv/dags/first_dag.py took 0.072 seconds
+[2023-08-15 20:28:04,102] {processor.py:153} INFO - Started process (PID=51104) to work on /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:28:04,103] {processor.py:641} INFO - Processing file /home/guilherme/airflow/venv/dags/first_dag.py for tasks to queue
+[2023-08-15 20:28:04,103] {logging_mixin.py:115} INFO - [2023-08-15 20:28:04,103] {dagbag.py:507} INFO - Filling up the DagBag from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:28:04,113] {processor.py:651} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:28:04,125] {logging_mixin.py:115} INFO - [2023-08-15 20:28:04,125] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-08-15 20:28:04,143] {logging_mixin.py:115} INFO - [2023-08-15 20:28:04,143] {dag.py:2927} INFO - Setting next_dagrun for first_dag to 2023-08-13T00:00:00+00:00, run_after=2023-08-14T00:00:00+00:00
+[2023-08-15 20:28:04,165] {processor.py:161} INFO - Processing /home/guilherme/airflow/venv/dags/first_dag.py took 0.066 seconds
+[2023-08-15 20:29:11,717] {processor.py:153} INFO - Started process (PID=51710) to work on /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:29:11,718] {processor.py:641} INFO - Processing file /home/guilherme/airflow/venv/dags/first_dag.py for tasks to queue
+[2023-08-15 20:29:11,718] {logging_mixin.py:115} INFO - [2023-08-15 20:29:11,718] {dagbag.py:507} INFO - Filling up the DagBag from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:29:11,728] {processor.py:651} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:29:11,749] {logging_mixin.py:115} INFO - [2023-08-15 20:29:11,749] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-08-15 20:29:11,769] {logging_mixin.py:115} INFO - [2023-08-15 20:29:11,769] {dag.py:2927} INFO - Setting next_dagrun for first_dag to 2023-08-13T00:00:00+00:00, run_after=2023-08-14T00:00:00+00:00
+[2023-08-15 20:29:11,796] {processor.py:161} INFO - Processing /home/guilherme/airflow/venv/dags/first_dag.py took 0.082 seconds
+[2023-08-15 20:32:31,573] {processor.py:153} INFO - Started process (PID=54133) to work on /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:32:31,574] {processor.py:641} INFO - Processing file /home/guilherme/airflow/venv/dags/first_dag.py for tasks to queue
+[2023-08-15 20:32:31,574] {logging_mixin.py:115} INFO - [2023-08-15 20:32:31,574] {dagbag.py:507} INFO - Filling up the DagBag from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:32:31,585] {processor.py:651} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:32:31,601] {logging_mixin.py:115} INFO - [2023-08-15 20:32:31,601] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-08-15 20:32:31,621] {logging_mixin.py:115} INFO - [2023-08-15 20:32:31,621] {dag.py:2927} INFO - Setting next_dagrun for first_dag to 2023-08-13T00:00:00+00:00, run_after=2023-08-14T00:00:00+00:00
+[2023-08-15 20:32:31,643] {processor.py:161} INFO - Processing /home/guilherme/airflow/venv/dags/first_dag.py took 0.073 seconds
+[2023-08-15 20:33:06,562] {processor.py:153} INFO - Started process (PID=54216) to work on /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:33:06,563] {processor.py:641} INFO - Processing file /home/guilherme/airflow/venv/dags/first_dag.py for tasks to queue
+[2023-08-15 20:33:06,563] {logging_mixin.py:115} INFO - [2023-08-15 20:33:06,563] {dagbag.py:507} INFO - Filling up the DagBag from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:33:06,574] {processor.py:651} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:33:06,592] {logging_mixin.py:115} INFO - [2023-08-15 20:33:06,591] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-08-15 20:33:06,613] {logging_mixin.py:115} INFO - [2023-08-15 20:33:06,613] {dag.py:2927} INFO - Setting next_dagrun for first_dag to 2023-08-13T00:00:00+00:00, run_after=2023-08-14T00:00:00+00:00
+[2023-08-15 20:33:06,711] {processor.py:161} INFO - Processing /home/guilherme/airflow/venv/dags/first_dag.py took 0.153 seconds
+[2023-08-15 20:33:42,571] {processor.py:153} INFO - Started process (PID=54247) to work on /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:33:42,572] {processor.py:641} INFO - Processing file /home/guilherme/airflow/venv/dags/first_dag.py for tasks to queue
+[2023-08-15 20:33:42,572] {logging_mixin.py:115} INFO - [2023-08-15 20:33:42,572] {dagbag.py:507} INFO - Filling up the DagBag from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:33:42,583] {processor.py:651} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:33:42,599] {logging_mixin.py:115} INFO - [2023-08-15 20:33:42,599] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-08-15 20:33:42,619] {logging_mixin.py:115} INFO - [2023-08-15 20:33:42,619] {dag.py:2927} INFO - Setting next_dagrun for first_dag to 2023-08-13T00:00:00+00:00, run_after=2023-08-14T00:00:00+00:00
+[2023-08-15 20:33:42,646] {processor.py:161} INFO - Processing /home/guilherme/airflow/venv/dags/first_dag.py took 0.079 seconds
+[2023-08-15 20:34:18,749] {processor.py:153} INFO - Started process (PID=54334) to work on /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:34:18,750] {processor.py:641} INFO - Processing file /home/guilherme/airflow/venv/dags/first_dag.py for tasks to queue
+[2023-08-15 20:34:18,751] {logging_mixin.py:115} INFO - [2023-08-15 20:34:18,750] {dagbag.py:507} INFO - Filling up the DagBag from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:34:18,765] {processor.py:651} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:34:18,784] {logging_mixin.py:115} INFO - [2023-08-15 20:34:18,784] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-08-15 20:34:18,801] {logging_mixin.py:115} INFO - [2023-08-15 20:34:18,801] {dag.py:2927} INFO - Setting next_dagrun for first_dag to 2023-08-13T00:00:00+00:00, run_after=2023-08-14T00:00:00+00:00
+[2023-08-15 20:34:18,823] {processor.py:161} INFO - Processing /home/guilherme/airflow/venv/dags/first_dag.py took 0.077 seconds
+[2023-08-15 20:34:51,955] {processor.py:153} INFO - Started process (PID=54367) to work on /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:34:51,956] {processor.py:641} INFO - Processing file /home/guilherme/airflow/venv/dags/first_dag.py for tasks to queue
+[2023-08-15 20:34:51,957] {logging_mixin.py:115} INFO - [2023-08-15 20:34:51,956] {dagbag.py:507} INFO - Filling up the DagBag from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:34:51,968] {processor.py:651} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:34:51,987] {logging_mixin.py:115} INFO - [2023-08-15 20:34:51,987] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-08-15 20:34:52,005] {logging_mixin.py:115} INFO - [2023-08-15 20:34:52,005] {dag.py:2927} INFO - Setting next_dagrun for first_dag to 2023-08-13T00:00:00+00:00, run_after=2023-08-14T00:00:00+00:00
+[2023-08-15 20:34:52,027] {processor.py:161} INFO - Processing /home/guilherme/airflow/venv/dags/first_dag.py took 0.075 seconds
+[2023-08-15 20:35:27,298] {processor.py:153} INFO - Started process (PID=54401) to work on /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:35:27,298] {processor.py:641} INFO - Processing file /home/guilherme/airflow/venv/dags/first_dag.py for tasks to queue
+[2023-08-15 20:35:27,299] {logging_mixin.py:115} INFO - [2023-08-15 20:35:27,299] {dagbag.py:507} INFO - Filling up the DagBag from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:35:27,311] {processor.py:651} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:35:27,330] {logging_mixin.py:115} INFO - [2023-08-15 20:35:27,330] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-08-15 20:35:27,347] {logging_mixin.py:115} INFO - [2023-08-15 20:35:27,347] {dag.py:2927} INFO - Setting next_dagrun for first_dag to 2023-08-13T00:00:00+00:00, run_after=2023-08-14T00:00:00+00:00
+[2023-08-15 20:35:27,814] {processor.py:161} INFO - Processing /home/guilherme/airflow/venv/dags/first_dag.py took 0.520 seconds
+[2023-08-15 20:37:03,246] {processor.py:153} INFO - Started process (PID=54634) to work on /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:37:03,252] {processor.py:641} INFO - Processing file /home/guilherme/airflow/venv/dags/first_dag.py for tasks to queue
+[2023-08-15 20:37:03,253] {logging_mixin.py:115} INFO - [2023-08-15 20:37:03,253] {dagbag.py:507} INFO - Filling up the DagBag from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:37:03,310] {processor.py:651} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:37:03,376] {logging_mixin.py:115} INFO - [2023-08-15 20:37:03,375] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-08-15 20:37:03,481] {logging_mixin.py:115} INFO - [2023-08-15 20:37:03,481] {dag.py:2927} INFO - Setting next_dagrun for first_dag to 2023-08-13T00:00:00+00:00, run_after=2023-08-14T00:00:00+00:00
+[2023-08-15 20:37:04,023] {processor.py:161} INFO - Processing /home/guilherme/airflow/venv/dags/first_dag.py took 0.793 seconds
+[2023-08-15 20:37:43,416] {processor.py:153} INFO - Started process (PID=55036) to work on /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:37:43,416] {processor.py:641} INFO - Processing file /home/guilherme/airflow/venv/dags/first_dag.py for tasks to queue
+[2023-08-15 20:37:43,417] {logging_mixin.py:115} INFO - [2023-08-15 20:37:43,417] {dagbag.py:507} INFO - Filling up the DagBag from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:37:43,428] {processor.py:651} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:37:43,445] {logging_mixin.py:115} INFO - [2023-08-15 20:37:43,445] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-08-15 20:37:43,470] {logging_mixin.py:115} INFO - [2023-08-15 20:37:43,470] {dag.py:2927} INFO - Setting next_dagrun for first_dag to 2023-08-13T00:00:00+00:00, run_after=2023-08-14T00:00:00+00:00
+[2023-08-15 20:37:43,497] {processor.py:161} INFO - Processing /home/guilherme/airflow/venv/dags/first_dag.py took 0.085 seconds
+[2023-08-15 20:38:20,732] {processor.py:153} INFO - Started process (PID=55183) to work on /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:38:20,733] {processor.py:641} INFO - Processing file /home/guilherme/airflow/venv/dags/first_dag.py for tasks to queue
+[2023-08-15 20:38:20,733] {logging_mixin.py:115} INFO - [2023-08-15 20:38:20,733] {dagbag.py:507} INFO - Filling up the DagBag from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:38:20,744] {processor.py:651} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:38:20,761] {logging_mixin.py:115} INFO - [2023-08-15 20:38:20,761] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-08-15 20:38:20,783] {logging_mixin.py:115} INFO - [2023-08-15 20:38:20,783] {dag.py:2927} INFO - Setting next_dagrun for first_dag to 2023-08-13T00:00:00+00:00, run_after=2023-08-14T00:00:00+00:00
+[2023-08-15 20:38:20,806] {processor.py:161} INFO - Processing /home/guilherme/airflow/venv/dags/first_dag.py took 0.078 seconds
+[2023-08-15 20:38:54,881] {processor.py:153} INFO - Started process (PID=55469) to work on /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:38:54,882] {processor.py:641} INFO - Processing file /home/guilherme/airflow/venv/dags/first_dag.py for tasks to queue
+[2023-08-15 20:38:54,882] {logging_mixin.py:115} INFO - [2023-08-15 20:38:54,882] {dagbag.py:507} INFO - Filling up the DagBag from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:38:54,893] {processor.py:651} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:38:54,944] {logging_mixin.py:115} INFO - [2023-08-15 20:38:54,944] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-08-15 20:38:54,965] {logging_mixin.py:115} INFO - [2023-08-15 20:38:54,965] {dag.py:2927} INFO - Setting next_dagrun for first_dag to 2023-08-13T00:00:00+00:00, run_after=2023-08-14T00:00:00+00:00
+[2023-08-15 20:38:55,022] {processor.py:161} INFO - Processing /home/guilherme/airflow/venv/dags/first_dag.py took 0.145 seconds
+[2023-08-15 20:39:38,780] {processor.py:153} INFO - Started process (PID=55962) to work on /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:39:38,781] {processor.py:641} INFO - Processing file /home/guilherme/airflow/venv/dags/first_dag.py for tasks to queue
+[2023-08-15 20:39:38,782] {logging_mixin.py:115} INFO - [2023-08-15 20:39:38,782] {dagbag.py:507} INFO - Filling up the DagBag from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:39:38,793] {processor.py:651} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /home/guilherme/airflow/venv/dags/first_dag.py
+[2023-08-15 20:39:38,810] {logging_mixin.py:115} INFO - [2023-08-15 20:39:38,810] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-08-15 20:39:38,830] {logging_mixin.py:115} INFO - [2023-08-15 20:39:38,830] {dag.py:2927} INFO - Setting next_dagrun for first_dag to 2023-08-13T00:00:00+00:00, run_after=2023-08-14T00:00:00+00:00
+[2023-08-15 20:39:38,851] {processor.py:161} INFO - Processing /home/guilherme/airflow/venv/dags/first_dag.py took 0.075 seconds
